@@ -5,9 +5,10 @@ export default function Navbar() {
         <li><a className="btn btn-info">Project</a></li>
         <li><a className="btn btn-info">About</a></li>
         <li><a className="btn btn-info">Blog</a></li>
+        <a className="btn btn-secondary animate-bounce">Login</a>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 flex justify-between items-center">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,9 +30,6 @@ export default function Navbar() {
                         navLinks
                     }
                 </ul>
-            </div>
-            <div className="navbar-end">
-                <a className="btn">Login</a>
             </div>
         </div>
 

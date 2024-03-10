@@ -4,7 +4,7 @@ import Navbar from "./header/Navbar";
 
 const Home = () => {
     return (
-        <div className="w-full h-screen">
+        <div className="w-full ">
             <Navbar />
            <Header />
         </div>
